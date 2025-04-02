@@ -3,13 +3,15 @@
 //(considerar que nota igual ou maior que 6 o aluno é aprovado). Escrever também a média calculada.
 
 #include <iostream>
+#include <windows.h>
 using namespace std;
 int main()
 {
+    SetConsoleOutputCP(65001);
     float nota1, nota2;
-    cout << "Digite o valor da primeira prova. \n";
+    cout << "Digite o valor da primeira prova: \n";
     cin >> nota1;
-    cout << "Digite o valor da segunda prova. \n";
+    cout << "Digite o valor da segunda prova: \n";
     cin >> nota2;
 
     float media = (nota1 + nota2) / 2;

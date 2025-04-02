@@ -48,8 +48,7 @@ int main()
 
     nadador *novoNadador = new nadador;
     cout << "Digite o nome do nadador. \n";
-    cin >> novoNadador->nome;
-    cin.ignore(); 
+    cin >> novoNadador->nome; 
     getline(cin, novoNadador->nome);
 
     cout << "Digite a idade do nadador. \n";
